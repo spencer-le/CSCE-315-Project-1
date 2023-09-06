@@ -1,0 +1,47 @@
+h1 {
+    background-color: #333;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+    color: white;
+    font-family: Impact, fantasy;
+    font-size: 10vw;
+    outline: rgb(0, 0, 0) solid 5px;
+    }
+
+img {
+    object-fit:fill;
+    width:100%;
+    height:80%;
+    border: solid 1px #CCC";
+}
+
+h2 {
+    background-color: darkslategray;
+    padding-top: 50px;
+    margin-top: 0%;
+    text-indent: 10%;
+    color: white;
+    font-family: Impact, fantasy;
+    font-size: 5vw;
+}
+
+p {
+    background-color: darkslategray;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    text-indent: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30%;
+    inline-size: 50%;
+    overflow-wrap: break-word;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
