@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Qualifications</title>
-        <link rel="stylesheet" href="style1.css">
+        <link id="style" rel="stylesheet" href="style1.css">
+        <script src="functions.js"></script>
     </head> 
     
     <body>
@@ -14,13 +15,14 @@
             <a href="qualifications.html">Qualifications</a>
             <a href="service.html">Service</a>
             <a href="aiGeneratedPage.html">AI Generated Page</a>
+            <button class="toogle" type="button" onclick="toggle()">Toggle Theme</button>
         </nav>
 
         <h1 class="landing_h1">Qualifications</h1>
 
         <div class="qualifications_div">
-            <object class="resume" data="Spencer Le Resume.pdf">GeeksforGeeks</object>
-            <div class="portfolio_div_col">
+            <iframe class="resume" src="Spencer Le Resume.pdf" title="Resume"></iframe>
+            <div class="qualifications_div_col">
                 <h2 class="qual_h2">Technical Skills</h2>
                 <p class="qual_p">Programming Language Proficiency:
                         <br>
