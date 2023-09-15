@@ -17,5 +17,5 @@ window.onload = function(){
     } else {
         stylesheet.href = 'style1.css';
         localStorage.setItem('stylesheet', 'style1.css');
-    }
+    } 
 }
